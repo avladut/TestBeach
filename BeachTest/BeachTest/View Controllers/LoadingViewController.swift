@@ -10,6 +10,8 @@ import UIKit
 
 class LoadingViewController: UIViewController {
 
+    @IBOutlet weak var progressDetails: UILabel!
+    @IBOutlet weak var progressView: UIProgressView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

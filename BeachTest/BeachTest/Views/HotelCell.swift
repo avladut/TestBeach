@@ -10,6 +10,9 @@ import UIKit
 
 class HotelCell: UITableViewCell {
 
+    @IBOutlet weak var lblRating: UILabel!
+    @IBOutlet weak var lblHotelLocation: UILabel!
+    @IBOutlet weak var lblHotelName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

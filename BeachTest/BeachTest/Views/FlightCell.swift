@@ -10,6 +10,9 @@ import UIKit
 
 class FlightCell: UITableViewCell {
 
+    @IBOutlet weak var lblPrice: UILabel!
+    @IBOutlet weak var lblArrivalDate: UILabel!
+    @IBOutlet weak var lblDepartureDate: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
