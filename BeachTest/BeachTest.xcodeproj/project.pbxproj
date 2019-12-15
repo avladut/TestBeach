@@ -16,6 +16,7 @@
 		FABC3C4123A6C26A00D43676 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC3C4023A6C26A00D43676 /* Hotel.swift */; };
 		FABC3C4323A6C32C00D43676 /* DatasourceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC3C4223A6C32C00D43676 /* DatasourceInteractor.swift */; };
 		FABC3C4523A6C36100D43676 /* DatasourceInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC3C4423A6C36100D43676 /* DatasourceInteractorImpl.swift */; };
+		FABC3C4723A6E51700D43676 /* DatasourceInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC3C4623A6E51700D43676 /* DatasourceInteractorTests.swift */; };
 		FAD78F4323A66F49003D4477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F4223A66F49003D4477 /* AppDelegate.swift */; };
 		FAD78F4523A66F49003D4477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD78F4423A66F49003D4477 /* SceneDelegate.swift */; };
 		FAD78F4A23A66F49003D4477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD78F4823A66F49003D4477 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		FABC3C4023A6C26A00D43676 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
 		FABC3C4223A6C32C00D43676 /* DatasourceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasourceInteractor.swift; sourceTree = "<group>"; };
 		FABC3C4423A6C36100D43676 /* DatasourceInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasourceInteractorImpl.swift; sourceTree = "<group>"; };
+		FABC3C4623A6E51700D43676 /* DatasourceInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasourceInteractorTests.swift; sourceTree = "<group>"; };
 		FAD78F3F23A66F49003D4477 /* BeachTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeachTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD78F4223A66F49003D4477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD78F4423A66F49003D4477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			children = (
 				FAD78F5923A66F4D003D4477 /* BeachTestTests.swift */,
 				FAD78F5B23A66F4D003D4477 /* Info.plist */,
+				FABC3C4623A6E51700D43676 /* DatasourceInteractorTests.swift */,
 			);
 			path = BeachTestTests;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD78F5A23A66F4D003D4477 /* BeachTestTests.swift in Sources */,
+				FABC3C4723A6E51700D43676 /* DatasourceInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

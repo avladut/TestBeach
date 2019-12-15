@@ -7,8 +7,20 @@
 //
 
 import Foundation
+
+struct DatasourceURLSchema {
+    let flightsURLString: String
+    let hotelsURLString: String
+}
+
 class DatasourceInteractorImpl {
+    let flightsURLString: String
+    let hotelsUrlString: String
     
+    init (urlSchema: DatasourceURLSchema) {
+        self.flightsURLString = urlSchema.flightsURLString
+        self.hotelsUrlString = urlSchema.hotelsURLString
+    }
 }
 
 extension DatasourceInteractorImpl: DatasourceInteractor {
