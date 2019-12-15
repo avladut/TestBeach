@@ -15,11 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MZC-oP-Eg6">
-                                <rect key="frame" x="30" y="452" width="354" height="2"/>
-                            </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Progress Details" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4D-dK-pkE">
-                                <rect key="frame" x="144.5" y="391.5" width="125" height="20.5"/>
+                                <rect key="frame" x="144.5" y="443" width="125" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,17 +24,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="MZC-oP-Eg6" firstAttribute="top" secondItem="c4D-dK-pkE" secondAttribute="bottom" constant="40" id="A68-bE-M3V"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MZC-oP-Eg6" secondAttribute="trailing" constant="30" id="cK5-nm-voJ"/>
-                            <constraint firstItem="MZC-oP-Eg6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="kmL-6X-C7F"/>
-                            <constraint firstItem="MZC-oP-Eg6" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mlr-E2-H1S"/>
-                            <constraint firstItem="c4D-dK-pkE" firstAttribute="centerX" secondItem="MZC-oP-Eg6" secondAttribute="centerX" id="ycg-RX-FlF"/>
+                            <constraint firstItem="c4D-dK-pkE" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5da-m1-Lf7"/>
+                            <constraint firstItem="c4D-dK-pkE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WtQ-ix-Tq8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="progressDetails" destination="c4D-dK-pkE" id="xXA-Yd-9FM"/>
-                        <outlet property="progressView" destination="MZC-oP-Eg6" id="Nmi-ta-6UU"/>
                         <segue destination="oZ8-ma-ksw" kind="presentation" identifier="TabBarSegue" modalPresentationStyle="currentContext" id="fXa-Hc-VBT"/>
                     </connections>
                 </viewController>
